@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    display: flex;
+    position: relative;
+}
+
+.left {
+    margin: 0;
+    padding: 0%;
+    height: 100vh;
+    width: auto;
+}
+
+.left img {
+    height: 100%;
+}
+
+.card-front {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.card-back {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+
+.card-logo {
+    position: absolute;
+    top: 22%;
+    left: 12%;
+}
+
+.card-number {
+    position: absolute;
+    top: 35%;
+    left: 12%;
+}
+
+.p-number {
+    font-size: 32px;
+    font-family: monospace;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.p-name {
+    color: white;
+    position: absolute;
+    top: 42%;
+    left: 12%;
+}
+
+.p-date {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 42%;
+    left: 27%;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv-number {
+    position: absolute;
+    top: 62.3%;
+    left: 34%;
+    color: white;
+}
+
+.right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp {
+    display: flex;
+    align-items: center;
+}
+
+.cv {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.exp-date {
+    display: flex;
+    width: 70%;
+    gap: 10px;
+}
+
+.exp-date input {
+    width: 70%;
+}
+
+.cardholder {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardNumber {
+    display: flex;
+    flex-direction: column;
+}
+
+#button {
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#cardholder,
+#cardnumber,
+#dateM,
+#dateY,
+#cvc {
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(173, 171, 171);
+    border: 1px solid rgb(173, 171, 171);
+    margin-bottom: 15px;
+}
+
+form {
+    width: 30%;
+}
+
+label {
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+
+#dateM,
+#dateY {
+    width: 70%;
+    margin-top: 10px;
+}
+
+.expCon {
+    width: 100%;
+}
+
+#date {
+    margin-bottom: 20px;
+}
